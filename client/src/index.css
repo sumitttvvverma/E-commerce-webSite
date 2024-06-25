@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.navbar{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  background:linear-gradient(rgb(167, 216, 130),rgb(246 201 230));
+}
+
+.nav-link{
+  font-weight: 550 !important;
+}
+
+/* underline on navbar active elements */
+.active{
+  border-bottom: 1px solid rgb(24, 21, 21);
+}
+
+/* Ecommerce Heading in left icon k liye  */
+.navbar-brand{
+ font-weight: 700;
+ letter-spacing: 2px;
+ display: flex !important;
+}
+
+/* ========footer====== */
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:-webkit-repeating-linear-gradient(black,#4a3b3b,rgb(41, 35, 35));
+  color: aliceblue;
+  padding: 18px;
+}
+
+/* .footerLink or .footer a */
+.footer a{
+  text-decoration: none;
+  color:aliceblue;
+  padding: 10px;
+}
+
+.footer a:hover{
+  color:rgb(255, 255, 255);
+  border-bottom: 2px solid whitesmoke;
+}
+
+/*======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: rgb(7, 3, 3);
+  color: white;
+}
+
+/* =========Contact , Policy ,Contact  ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*inside Products map*/
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* search button input style */
+.search-form{
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input{
+  border: none;
+  border-radius: 1;
+}
+.search-form button{
+  background-color: #000000;
+  border-radius: 1;
+  color: white;
+}
